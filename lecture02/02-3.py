@@ -70,12 +70,10 @@ print(a.count(1))
 
 #확장
 a = [6, 8, 7]
-print(a.sort())
 a.extend([4, 5])
 print(a)
-print(a.sort())
 b = [1, 2, 3]
 a.extend(b)
-print(a.sort())
+a.sort()
 print(a)
 
